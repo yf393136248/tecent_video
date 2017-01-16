@@ -1,0 +1,70 @@
+/* pages/my/my.wxss */
+.container {
+     width: 100%;
+     height: 100%;
+     padding: 0;
+     background: #f5f7f9;
+     justify-content: unset;
+}
+.container .header-image {
+    width: 100%;
+     padding: 48rpx 0;
+     background: #fff;
+     text-align: center;
+}
+.container .header-image image {
+    width: 156rpx;
+    height: auto;
+}
+
+.container .header-image text {
+    display: block;
+    font-weight: bold;
+}
+.container .vip {
+    width: 100%;
+    height: auto;
+    padding: 43rpx 0 37rpx 0;
+    position: relative;
+    background: #fff;
+    border-top: 1rpx solid #e2e2e2;
+}
+.container .vip image {
+    width: 52rpx;
+    position: absolute;
+    left: 36rpx;
+    top: 61rpx;
+}
+.container .vip text{
+    display: block;
+    font-size: 26rpx;
+    margin-left: 119rpx;
+}
+.container .vip .h2 {
+    font-weight: bold;
+    font-size: 28rpx;
+    line-height:52rpx;
+}
+
+.container .history {
+    width: 100%;
+    height: auto;
+    margin: 36rpx 0 0 0;
+    padding: 56rpx 0 56rpx 40rpx;
+    font-size: 28rpx;
+    font-weight: bold;
+    background: #fff;
+    border-bottom: 1rpx solid #e2e2e2;
+}
+.container .play-list {
+    width: 100%;
+    height: auto;
+    padding: 56rpx 0 56rpx 40rpx;
+    font-size: 28rpx;
+    font-weight: bold;
+    background: #fff;
+}
+.container .fr {
+    float:  right;
+    margin-right: 40rpx;
+}

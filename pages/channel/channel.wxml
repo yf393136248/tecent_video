@@ -1,0 +1,128 @@
+<view class="body">
+    <view class="h-bar-1">
+        <text class="active">电视剧</text>
+        <text>综艺</text>
+        <text>电影</text>
+        <text>动漫</text>
+        <icon type="search" size="26" color="#808080"></icon>
+    </view>
+    <view class="h-bar-2">
+        <text>偶像</text>
+        <text>古装</text>
+        <text>玄幻</text>
+        <text>历史</text>
+        <text>全部分类</text>
+    </view>
+    <view class="content-ul">
+        <view class="list-title">全网直播 ></view>
+        <view class="list">
+            <view class="detail">
+                <image src="../../images/img_1.png" mode="widthFix"></image>
+                <view class="font-area">
+                    <text class="bold">黎明前最后十天</text>
+                    <text>重现二战的最后时刻</text>
+                </view>
+            </view>
+            <view class="vertical-space"></view>
+            <view class="detail">
+                <image src="../../images/img_2.png" mode="widthFix"></image>
+                <view class="font-area">
+                    <text class="bold">愠啖食第三季</text>
+                    <text>记忆深处故乡的味道</text>
+                </view>
+            </view>
+        </view>
+        <view class="list">
+            <view class="detail">
+                <image src="../../images/img_1.png" mode="widthFix"></image>
+                <view class="font-area">
+                    <text class="bold">黎明前最后十天</text>
+                    <text>重现二战的最后时刻</text>
+                </view>
+            </view>
+            <view class="vertical-space"></view>
+            <view class="detail">
+                <image src="../../images/img_2.png" mode="widthFix"></image>
+                <view class="font-area">
+                    <text class="bold">愠啖食第三季</text>
+                    <text>记忆深处故乡的味道</text>
+                </view>
+            </view>
+        </view>
+    </view> 
+    <view class="content-ul">
+        <view class="list-title">最帅综艺 ></view>
+        <view class="list">
+            <view class="detail">
+                <image src="../../images/img_1.png" mode="widthFix"></image>
+                <view class="font-area">
+                    <text class="bold">黎明前最后十天</text>
+                    <text>重现二战的最后时刻</text>
+                </view>
+            </view>
+            <view class="vertical-space"></view>
+            <view class="detail">
+                <image src="../../images/img_2.png" mode="widthFix"></image>
+                <view class="font-area">
+                    <text class="bold">愠啖食第三季</text>
+                    <text>记忆深处故乡的味道</text>
+                </view>
+            </view>
+        </view>
+        <view class="list">
+            <view class="detail">
+                <image src="../../images/img_1.png" mode="widthFix"></image>
+                <view class="font-area">
+                    <text class="bold">黎明前最后十天</text>
+                    <text>重现二战的最后时刻</text>
+                </view>
+            </view>
+            <view class="vertical-space"></view>
+            <view class="detail">
+                <image src="../../images/img_2.png" mode="widthFix"></image>
+                <view class="font-area">
+                    <text class="bold">愠啖食第三季</text>
+                    <text>记忆深处故乡的味道</text>
+                </view>
+            </view>
+        </view>
+    </view> 
+    <view class="content-ul">
+        <view class="list-title">高分佳片 ></view>
+        <view class="list">
+            <view class="detail">
+                <image src="../../images/img_1.png" mode="widthFix"></image>
+                <view class="font-area">
+                    <text class="bold">黎明前最后十天</text>
+                    <text>重现二战的最后时刻</text>
+                </view>
+            </view>
+            <view class="vertical-space"></view>
+            <view class="detail">
+                <image src="../../images/img_2.png" mode="widthFix"></image>
+                <view class="font-area">
+                    <text class="bold">愠啖食第三季</text>
+                    <text>记忆深处故乡的味道</text>
+                </view>
+            </view>
+        </view>
+        <view class="list">
+            <view class="detail">
+                <image src="../../images/img_1.png" mode="widthFix"></image>
+                <view class="font-area">
+                    <text class="bold">黎明前最后十天</text>
+                    <text>重现二战的最后时刻</text>
+                </view>
+            </view>
+            <view class="vertical-space"></view>
+            <view class="detail">
+                <image src="../../images/img_2.png" mode="widthFix"></image>
+                <view class="font-area">
+                    <text class="bold">愠啖食第三季</text>
+                    <text>记忆深处故乡的味道</text>
+                </view>
+            </view>
+        </view>
+    </view> 
+    
+</view>

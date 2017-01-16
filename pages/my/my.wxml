@@ -1,0 +1,21 @@
+<!--pages/my/my.wxml-->
+<view class="container">
+    <view class="header-image">
+        <image src="../../images/user_photo.png" mode="widthFix"></image>
+        <text>Smart</text>
+    </view>
+    <view class="vip">
+        <image src="../../images/start.png" mode="widthFix"></image>
+        <text class="h2">VIP暂未开通</text>
+        <text>暂未支持QQ登录，请点此登录</text>
+    </view>
+    <view class="history">
+        <text>观看历史</text><text class="fr">></text>
+    </view>
+    <view class="play-list">
+        <text>我的看单</text><text class="fr">></text>
+    </view>
+    <view class="history">
+        <text>清除本地缓存</text><text class="fr">8kb</text>
+    </view>
+</view>

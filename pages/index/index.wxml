@@ -1,0 +1,130 @@
+<!--index.wxml-->
+<view>
+  <icon type="search" color="white" size="24" class="icon"></icon>
+  <image src="../../images/logo.png" mode="widthFix" class="logo"></image>
+</view>
+<image class="top-image" src="{{bannerList[activeBannerIndex].url}}" mode="widthFix"></image>
+<view class="container">
+  <swiper class="slider" bindchange="bindChange">
+    <swiper-item id="green">
+      <view class="scroll-view-item">
+          <text class="title">治愈系·文人</text>
+          <view class="content">
+              <view class="list">
+                 <view class="detail">
+                    <image src="../../images/img_1.png" mode="widthFix"></image>
+                    <view class="font-area">
+                        <text class="bold">黎明前最后十天</text>
+                        <text>重现二战的最后时刻</text>
+                    </view>
+                 </view>
+                 <view class="detail">
+                    <image src="../../images/img_2.png" mode="widthFix"></image>
+                    <view class="font-area">
+                        <text class="bold">愠啖食第三季</text>
+                        <text>记忆深处故乡的味道</text>
+                    </view>
+                 </view>
+              </view>
+              <view class="space-50"></view>
+              <view class="list">
+                 <view class="detail">
+                    <image src="../../images/img_3.png" mode="widthFix"></image>
+                    <view class="font-area">
+                        <text class="bold">相约位置地带：贵州篇</text>
+                        <text>法国央视投拍中国宣...</text>
+                    </view>
+                 </view>
+                 <view class="detail">
+                    <image src="../../images/img_4.png" mode="widthFix"></image>
+                    <view class="font-area">
+                        <text class="bold">黎明前最后十天</text>
+                        <text>重现二战的最后时刻</text>
+                    </view>
+                 </view>
+              </view>
+          </view>
+      </view>
+    </swiper-item>
+    <swiper-item id="yellow">
+      <view class="scroll-view-item">
+          <text class="title">美人系·古装</text>
+          <view class="content">
+              <view class="list">
+                 <view class="detail">
+                    <image src="../../images/img_1.png" mode="widthFix"></image>
+                    <view class="font-area">
+                        <text class="bold">黎明前最后十天</text>
+                        <text>重现二战的最后时刻</text>
+                    </view>
+                 </view>
+                 <view class="detail">
+                    <image src="../../images/img_2.png" mode="widthFix"></image>
+                    <view class="font-area">
+                        <text class="bold">愠啖食第三季</text>
+                        <text>记忆深处故乡的味道</text>
+                    </view>
+                 </view>
+              </view>
+              <view class="space-50"></view>
+              <view class="list">
+                 <view class="detail">
+                    <image src="../../images/img_3.png" mode="widthFix"></image>
+                    <view class="font-area">
+                        <text class="bold">相约位置地带：贵州篇</text>
+                        <text>法国央视投拍中国宣...</text>
+                    </view>
+                 </view>
+                 <view class="detail">
+                    <image src="../../images/img_4.png" mode="widthFix"></image>
+                    <view class="font-area">
+                        <text class="bold">黎明前最后十天</text>
+                        <text>重现二战的最后时刻</text>
+                    </view>
+                 </view>
+              </view>
+          </view>
+      </view>
+    </swiper-item>
+    <swiper-item id="blue">
+      <view class="scroll-view-item">
+          <text class="title">清新系·美女</text>
+          <view class="content">
+              <view class="list">
+                 <view class="detail">
+                    <image src="../../images/img_1.png" mode="widthFix"></image>
+                    <view class="font-area">
+                        <text class="bold">黎明前最后十天</text>
+                        <text>重现二战的最后时刻</text>
+                    </view>
+                 </view>
+                 <view class="detail">
+                    <image src="../../images/img_2.png" mode="widthFix"></image>
+                    <view class="font-area">
+                        <text class="bold">愠啖食第三季</text>
+                        <text>记忆深处故乡的味道</text>
+                    </view>
+                 </view>
+              </view>
+              <view class="space-50"></view>
+              <view class="list">
+                 <view class="detail">
+                    <image src="../../images/img_3.png" mode="widthFix"></image>
+                    <view class="font-area">
+                        <text class="bold">相约位置地带：贵州篇</text>
+                        <text>法国央视投拍中国宣...</text>
+                    </view>
+                 </view>
+                 <view class="detail">
+                    <image src="../../images/img_4.png" mode="widthFix"></image>
+                    <view class="font-area">
+                        <text class="bold">黎明前最后十天</text>
+                        <text>重现二战的最后时刻</text>
+                    </view>
+                 </view>
+              </view>
+          </view>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

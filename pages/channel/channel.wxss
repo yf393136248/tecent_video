@@ -1,0 +1,98 @@
+/*channer.wxss*/
+.page {
+    margin: 0;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    margin-top: 31rpx;
+    width: 100%;
+    height: 100%;
+}
+.h-bar-1 {
+    width: 100%;
+    height: 90rpx;
+    line-height: 90rpx;
+    position: relative;
+}
+.h-bar-1 text {
+    font-size: 28rpx;
+    margin: 0 20rpx 0 44rpx;
+    font-weight: bold;
+    display: inline-block;
+}
+.h-bar-1 text.active {
+    color: #ff7700;
+    border-bottom: 1rpx solid #ff7700;
+}
+.h-bar-1 icon {
+    position: absolute;
+    right: 54rpx;
+    top: 24rpx;
+}
+.h-bar-2 {
+    font-size: 26rpx;
+    margin:36rpx 0 36rpx 10rpx;
+}
+.h-bar-2 text {
+    display: inline-block;
+    background: #f5f7f9;
+    width: 110rpx;
+    height: 65rpx;
+    line-height: 65rpx;
+    border-radius: 6rpx;
+    margin-left: 28rpx;
+    text-align: center;
+}
+.content-ul {
+    border-top: 1rpx solid #e2e2e1;
+    padding-bottom: 36rpx;
+}
+.list-title {
+    font-weight: bold;
+    font-size: 28rpx;
+    line-height: 110rpx;
+    margin-left: 40rpx;
+    height: 87rpx;
+}
+.list {
+     display: flex;
+    flex-direction: row;
+    width: calc(100% - 80rpx);
+    margin: 0 40rpx;
+}
+.list .detail {
+    flex:1;
+    width: 100%;
+    height: 100%;
+    
+}
+.list .detail .view-image {
+    width: 100%;
+    position: relative;
+}
+.list .detail .view-image text {
+    position: absolute;
+    font-size: 24rpx;
+    right: 10rpx;
+    bottom: 10rpx;
+    color: #fff;
+}
+
+.list .detail image{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.list .detail .font-area {
+    padding: 10rpx 0;
+}
+.list .detail .font-area text{
+    font-size: 24rpx;
+    line-height: 36rpx;
+    display: flex;
+}
+.list .vertical-space {
+    width: 18rpx;
+    height: 100%;
+}
