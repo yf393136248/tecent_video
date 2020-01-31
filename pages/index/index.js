@@ -39,5 +39,10 @@ Page({
     })
     console.log(app.globalData);
     this.setData({'windowWidth' : app.globalData.windowWidth});
+  },
+  openDetail: function(){
+    wx.navigateTo({
+      url: '/pages/detail/detail',
+    })
   }
 })

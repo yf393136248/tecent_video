@@ -1,0 +1,41 @@
+<!--pages/detail/detail.wxml-->
+<view class='detail-body'>
+    <image class='view-thumb' src='../../images/detail-video-thumb.png'></image>
+    <view class='body'>
+        <!-- 基础信息 -->
+        <view class='main-info'>
+            <view class='basic'>
+                <text class='title'>王牌对王牌 第五季</text>
+                <text class='desc'>简介 ></text>
+            </view>
+            <view class='sec-info'>
+                <text>游戏 · 4506.5万</text>
+            </view>
+        </view>
+        <!-- 社交按钮 -->
+        <view class='socal-icons'>
+            <image class='msg' src='/images/detail-msg.png'></image>
+            <image class='favorite' src='/images/detail-favorite.png'></image>
+            <image class='wechat-circle' src='/images/detail-wechat-circle.png'></image>
+            <image class='wechat' src='/images/detail-wechat.png'></image>
+        </view>
+        <!-- 往期看点 -->
+        <view class='hots'>
+            <view class='title'>
+                2020-01-20 往期看点
+                <text>></text>
+            </view>
+            <scroll-view class='items' scroll-x="true">
+                <view class='item'>
+                    <view>2020新年特辑：TFBoys穿玩偶服唱《波斯猫》，华晨宇也在唱歌</view>
+                </view>
+                <view class='item'>
+                    <view>华晨宇黄渤合唱《饿狼传说》，花花高音学狼叫，真的很难听椰</view>
+                </view>
+                <view class='item'>
+                    <view>华晨宇黄渤合唱《饿狼传说》，花花高音学狼叫，真的很难听椰</view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+</view>

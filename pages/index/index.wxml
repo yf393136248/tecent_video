@@ -11,7 +11,7 @@
           <text class="title">治愈系·文人</text>
           <view class="content">
               <view class="list">
-                 <view class="detail">
+                 <view class="detail" bindtap="openDetail">
                     <image src="../../images/img_1.png" mode="widthFix"></image>
                     <view class="font-area">
                         <text class="bold">黎明前最后十天</text>

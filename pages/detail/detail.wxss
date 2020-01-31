@@ -1,0 +1,117 @@
+/* pages/detail/detail.wxss */
+
+.detail-body {
+  width: 100%;
+  height: 100%;
+  background: #262932;
+  color: #fefeff;
+}
+
+.detail-body .view-thumb {
+  width: 100%;
+  height: 426rpx;
+}
+
+.detail-body .body {
+  padding: 0 34rpx;
+  margin-top: 40rpx;
+}
+
+.detail-body .body .main-info .basic {
+  height: 50rpx;
+  line-height: 50rpx;
+}
+
+.detail-body .body .main-info .basic .title {
+  font-size: 38rpx;
+}
+
+.detail-body .body .main-info .basic .desc {
+  float: right;
+  font-size: 28rpx;
+  color: #a8a7ad;
+}
+
+.detail-body .body .main-info .sec-info {
+  margin-top: 30rpx;
+  color: #a8a7ad;
+  font-size: 24rpx;
+}
+
+.detail-body .body .socal-icons {
+  height: 68rpx;
+  margin: 35rpx 0 40rpx 0;
+}
+
+.detail-body .body .socal-icons image {
+  width: 67rpx;
+  height: 67rpx;
+}
+
+.detail-body .body .socal-icons .msg {
+  width: 50rpx;
+  height: 43rpx;
+  margin-top: 12rpx;
+}
+
+.detail-body .body .socal-icons .favorite {
+  float: right;
+  width: 50rpx;
+  height: 43rpx;
+  margin-left: 50rpx;
+  margin-top: 12rpx;
+}
+
+.detail-body .body .socal-icons .wechat-circle, .wechat {
+  float: right;
+  margin-left: 50rpx;
+}
+
+.detail-body .hots {
+  margin-top: 30rpx;
+  border-top: 1rpx solid #393c45;
+  border-bottom: 1rpx solid #393c45;
+  padding-top: 30rpx;
+  overflow: hidden;
+}
+
+.detail-body .hots .title {
+  font-size: 34rpx;
+  font-weight: bold;
+}
+
+.detail-body .hots .title text {
+  float: right;
+}
+
+.detail-body .hots scroll-view {
+  width: 100%;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  white-space: nowrap;
+}
+
+.detail-body .hots .item {
+  background: #363942;
+  font-size: 28rpx;
+  border-radius: 6rpx;
+  display: inline-block;
+  margin-left: 10rpx;
+}
+
+.detail-body .hots .item view {
+  width: 239rpx;
+  height: 95rpx;
+  padding: 32rpx 40rpx;
+  word-break: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* display: -webkit-box; */
+  /* 几行后显示省略号 */
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.detail-body .hots .item:first-child {
+  margin-left: 0;
+}
