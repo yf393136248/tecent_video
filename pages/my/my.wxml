@@ -15,7 +15,7 @@
     <view class="play-list">
         <text>我的看单</text><text class="fr">></text>
     </view>
-    <view class="history">
+    <view class="history" bindtap="clearLocalStorage">
         <text>清除本地缓存</text><text class="fr">8kb</text>
     </view>
 </view>

@@ -15,5 +15,11 @@ Page({
   },
   onUnload:function(){
     // 页面关闭
+  },
+  clearLocalStorage: () => {
+    wx.clearStorage()
+    wx.showToast({
+      title: '清理成功！',
+    })
   }
 })
