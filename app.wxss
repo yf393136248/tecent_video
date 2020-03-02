@@ -16,3 +16,6 @@ page{
 .bold {
   font-weight: bold;
 } 
+.xlsg {
+	font-size: 23rpx;
+}
